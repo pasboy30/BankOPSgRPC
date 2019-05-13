@@ -8,6 +8,5 @@ gRPC: https://grpc.io/
 
 gRPC examples: https://grpc.io/docs/tutorials/
 
-
 protocol buffers: https://developers.google.com/protocol-buffers/
 
