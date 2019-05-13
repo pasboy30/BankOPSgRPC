@@ -1,0 +1,58 @@
+[
+  {
+    "Account_No": "RBCD19191",
+      "Name": "Parth Shukla",
+      "Age" : 21,
+      "Gender": "M",
+    "Balance": 12000
+  },
+    {
+    "Account_No": "RBCD19192",
+      "Name": "Dipesh Patel",
+      "Age" : 21,
+      "Gender": "M",
+      "Balance": 12789
+  },
+    {
+    "Account_No": "RBCD12456",
+      "Name": "Ela Bosak",
+      "Age" : 25,
+      "Gender": "F",
+      "Balance": 12400
+  },
+    {
+    "Account_No": "RBCD19491",
+      "Name": "Austin James",
+      "Age" : 28,
+      "Gender": "M",
+      "Balance": 12770
+  },
+  {
+    "Account_No": "RBCD19111",
+      "Name": "Maicey Jay",
+      "Age": 25,
+      "Gender": "M",
+      "Balance": 12870
+  },
+    {
+    "Account_No": "RBCD19569",
+      "Name": "Jessy James",
+      "Age" : 22,
+      "Gender": "F",
+      "Balance": 12500
+  },
+      {
+    "Account_No": "RBCD19578",
+      "Name": "Angela Johanson",
+      "Age" : 24,
+      "Gender": "F",
+      "Balance": 12555
+  },
+      {
+    "Account_No": "RBCD19599",
+      "Name": "Adrian Smith",
+      "Age" : 28,
+      "Gender": "M",
+      "Balance": 12544
+  }
+]

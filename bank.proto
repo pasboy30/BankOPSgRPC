@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package bankops;
+
+
+// ---- Main API ---- 
+
+service BankOps{
+	
+ 	//List of Services
+
+	/* Services related to Querying of Data*/ 
+
+ 	// Retrives Account Balance of a user
+ 	rpc QueryBalance(AccountNo) returns (FinanceDetails) {}
+	// Retrives Personal details of corresponding account number
+    rpc QueryDetails(AccountNo) returns (CustomerDetails) {}
+	/* Services regards to the withdrawl and deposit of money (Core Business Logic) */ 
+	rpc Deposit (TransferMessage) returns (UpdatedAccounts) {}
+
+}
+
+// ---- Message Unit Definitions ----
+
+message AccountNo {
+    string Account_No = 1;
+}
+
+message FinanceDetails {
+    string Account_No = 1;
+    string Name = 2;
+    int32 Balance = 3;
+}
+
+message CustomerDetails {
+    string Account_No = 1;
+    string Name = 2;
+    int32 Age = 3;
+    string Gender = 4;
+}
+
+message TransferMessage {
+	string fromAccount = 1;
+	string toAccount = 2;
+	int32 amount = 3;
+}
+
+message UpdatedAccounts {
+	string fromAccount = 1;
+	int32 fromAccountBal = 2;
+	string toAccount = 3;
+	int32 toAccountBal = 4;
+}
